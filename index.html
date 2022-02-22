@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <div class="container">
+    <h1> SPIL <br> TTER </h1>
+
+    <div class="main-content">
+
+      <div class="content-1">
+
+       <label>Bill</label>
+       <div id="input_container">
+        <input type="number" id="input" placeholder="0">
+        <img class="input-img" src="images/icon-dollar.svg" alt="">
+       </div>
+       <label> Select Tip % </label>
+       <div class="buttons">
+         <!-- <div class="buttons-1"> -->
+          <button class="btn"> 5% </button>
+          <button class="btn"> 10% </button>
+          <button class="btn"> 15% </button>
+         <!-- </div> -->
+         <!-- <div class="buttons-2"> -->
+          <button class="btn"> 25% </button>
+          <button class="btn"> 50% </button>
+          <input type="number" class="custom-input" placeholder="Custom" >
+         <!-- </div> -->
+       </div>
+
+       <label > Number of People </label>
+       <div id="input_container2">
+        <input type="number" id="input2" placeholder="0">
+        <img class="input-img2" src="images/icon-person.svg" alt="">
+       </div>
+
+      </div>
+
+
+
+      <div class="content-2">
+        <div class="content-2-fchild">
+          <div class="fchild">
+            <div class="f-c-1">
+              <p>Tip amount</p>
+              <p class="per-person">/ person</p>
+            </div>
+            <div class="f-c-2">
+              <h1>$0.00</h1>
+            </div>
+          </div>
+        </div>
+        <div class="content-2-schild">
+          <div class="schild">
+            <div class="s-c-1">
+              <p>Total</p>
+              <p class="per-person">/ person</p>
+            </div>
+            <div class="s-c-2">
+              <h1>$0.00</h1>
+            </div>
+          </div>
+        </div>
+        <div class="content-2-tchild">
+          <button class="reset">  RESET  </button>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  
+  <script src="app.js"></script>
+
+</body>
+</html>
